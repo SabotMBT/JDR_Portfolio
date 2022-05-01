@@ -6,6 +6,14 @@ This site will be a WIP for some time. Ver 1.0 should be, as an initial launch, 
 
 Changelog:
 
-Ver 0.15 Initial upload of blank index.html and style.css sheets, updated README to include a rough description and the beginning of the Changelog.
+Ver 0.2: Creation of basic layout and style elements.
+
+- Created Header, Title, and Navbar
+- Established body sections
+- Established a sidebar
+- Made the site responsive to display width for ease of access by mobile devices.
+- Added placeholder texts (to be revised at a later date)
+
+Ver 0.15: Initial upload of blank index.html and style.css sheets, updated README to include a rough description and the beginning of the Changelog.
 
 Ver 0.1: Creation of GitHub repository.
