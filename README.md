@@ -6,6 +6,23 @@ This site will be a WIP for some time. Ver 1.0 should be, as an initial launch, 
 
 Changelog:
 
+To Do:
+
+- Replace placeholder content with real content.
+- Add pictures and links to deployed projects when they become available.
+
+Ver 0.9: Adding functionality to the page.
+
+- Created nav links that jump to a specified place on the page.
+- Added links to external sites.
+- Added content boxes to the 'Portfolio' section.
+- Added display functionality to the content boxes; when clicked, they expand to desplay content.
+- Added recent photo in Biography section.
+- Refined styling
+  -Added 'box glow'
+  -Set section titles into their own boxes
+  -Shifted section title boxes up, partially out of the section boxes.
+
 Ver 0.2: Creation of basic layout and style elements.
 
 - Created Header, Title, and Navbar
