@@ -2,46 +2,185 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primcolor: rgb(42, 42, 42);
+  --seccolor: rgb(96, 0, 19);
+  --primlight: #fffff0;
+}
+
 body {
+  position: relative;
+  margin: 1rem;
+  min-height: 100vh;
+  padding-bottom: 7rem;
+  display: flex;
+  flex-direction: column;
   font-family: Helvetica;
-  background-color: rgb(42, 42, 42);
-  color: ivory;
+  background-color: var(--primcolor);
+  color: var(--primlight);
 }
 
 header {
+  margin: 0 auto;
   padding: 1rem;
   width: 100%;
   text-align: center;
   display: inline-flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(96, 0, 19);
-  color: ivory;
+  background-color: var(--seccolor);
+  color: var(--primlight);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px var(--primlight);
 }
 
 nav ul {
   list-style-type: none;
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   flex-direction: column;
 }
 
 nav a {
-  color: ivory;
+  color: var(--primlight);
   text-decoration: none;
   text-align: right;
-  padding: 2rem 1.5rem;
 }
 
 aside {
+  margin: 0 auto;
   width: 100%;
   float: none;
   display: flex;
   flex-direction: column;
-  background-color: rgb(44, 44, 44);
-  color: ivory;
+  color: var(--primlight);
   flex: 1;
   padding: 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--seccolor);
+  color: var(--primlight);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+aside div {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside h2 {
+  margin: auto;
+  width: 60%;
+  margin-top: -2.5rem;
+  border-radius: 1rem;
+  width: 80%;
+  text-align: center;
+  background-color: var(--seccolor);
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+
+.portfolio {
+  width: 100%;
+  padding: 1.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: block;
+  background-color: var(--seccolor);
+  color: var(--primlight);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+
+.portfolio h3 {
+  margin: auto;
+  width: 50%;
+  margin-top: -2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: var(--seccolor);
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+.contact {
+  width: 100%;
+  padding: 1.5rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: var(--seccolor);
+  color: var(--primlight);
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+
+.contact h3 {
+  margin: auto;
+  width: 50%;
+  margin-top: -2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: var(--seccolor);
+  box-shadow: 0px 0px 5px var(--primlight);
+}
+
+.square {
+  position: relative;
+  width: 95%;
+  margin: auto;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 1rem;
+}
+.top {
+  background-color: var(--primcolor);
+  height: 1rem;
+  left: 0;
+  right: 0;
+  border-radius: 1rem 1rem 0 0;
+}
+.center {
+  background-color: var(--primcolor);
+  left: 0;
+  right: 0;
+  top: 1rem;
+  transition: all 0.3s;
+  display: flex;
+}
+.center summary {
+  text-align: center;
+}
+.center div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.pinkandred {
+  width: 85%;
+  padding: 0.5rem;
+}
+.bottom {
+  background-color: var(--primcolor);
+  position: absolute;
+  height: 1rem;
+  left: 0;
+  right: 0;
+  border-radius: 0 0 1rem 1rem;
+  transform: translateY(60);
+}
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 3rem;
+  background-color: var(--seccolor);
+  color: var(--primlight);
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 5px var(--primlight);
 }
 
 @media screen and (min-width: 768px) {
@@ -50,6 +189,14 @@ aside {
     display: inline-flex;
     flex-direction: row;
     float: right;
+  }
+  .portfolio {
+    float: left;
+    width: 67.5%;
+  }
+  .contact {
+    float: left;
+    width: 67.5%;
   }
   aside {
     float: right;

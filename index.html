@@ -6,23 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
-  <body>
+  <body id="Home">
     <header>
       <h1>Portfolio</h1>
       <p>By Joel Rogers</p>
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#Home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#About">About</a>
           </li>
           <li>
-            <a href="#">Portfolio</a>
+            <a href="#Portfolio">Portfolio</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#Contact">Contact</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/joel-rogers-050541238/"
+              >LinkedIn</a
+            >
           </li>
         </ul>
       </nav>
@@ -30,15 +35,10 @@
 
     <main>
       <section>
-        <aside>
+        <aside id="About">
           <h2>Biography</h2>
           <div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
-              vel illo harum aliquid officiis voluptas cum in, temporibus
-              perspiciatis iste nihil provident quaerat! Optio in asperiores
-              quisquam eligendi magni dolores.
-            </p>
+            <img src="./assets/mecropped.jpg" alt="Joel Rogers" />
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Mollitia, provident vero cum maxime assumenda quae eius quaerat,
@@ -53,11 +53,66 @@
             </p>
           </div>
         </aside>
-        <div>
+        <div class="portfolio" id="Portfolio">
           <h3>Portfolio</h3>
-          <p>placeholder</p>
+          <div class="square">
+            <div class="top"></div>
+            <details class="center">
+              <summary>Placeholder</summary>
+              <div>
+                <img
+                  src="./assets/pinkandredbouquet.jpeg"
+                  class="pinkandred"
+                  alt="pinkandredbouquet"
+                />
+              </div>
+            </details>
+            <div class="bottom"></div>
+          </div>
+          <div class="square">
+            <div class="top"></div>
+            <details class="center">
+              <summary>Placeholder</summary>
+              <div>
+                <img
+                  src="./assets/pinkandredbouquet.jpeg"
+                  class="pinkandred"
+                  alt="pinkandredbouquet"
+                />
+              </div>
+            </details>
+            <div class="bottom"></div>
+          </div>
+          <div class="square">
+            <div class="top"></div>
+            <details class="center">
+              <summary>Placeholder</summary>
+              <div>
+                <img
+                  src="./assets/pinkandredbouquet.jpeg"
+                  class="pinkandred"
+                  alt="pinkandredbouquet"
+                />
+              </div>
+            </details>
+            <div class="bottom"></div>
+          </div>
+          <div class="square">
+            <div class="top"></div>
+            <details class="center">
+              <summary>Placeholder</summary>
+              <div>
+                <img
+                  src="./assets/pinkandredbouquet.jpeg"
+                  class="pinkandred"
+                  alt="pinkandredbouquet"
+                />
+              </div>
+            </details>
+            <div class="bottom"></div>
+          </div>
         </div>
-        <article>
+        <article class="contact" id="Contact">
           <h3>Contact Information</h3>
           <p>placeholder</p>
         </article>
