@@ -16,7 +16,6 @@ Ver 0.9.3: Fleshing out the website
 - Animating linkboxes
 - Replacing placeholder text in Biography with an actual bio
 - Adding Contact Information, animating boxes, and making the links functional
--
 
 Ver 0.9: Adding functionality to the page.
 
