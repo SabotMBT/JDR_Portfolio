@@ -10,6 +10,10 @@ To Do:
 
 - Add pictures and links to deployed projects when they become available.
 
+Ver 0.9.4: Bugfix
+
+- Fixed nav bar display bug at widths of less than 560px. Header now auto-arranges to a column format at width less than 570px.
+
 Ver 0.9.3: Fleshing out the website
 
 - Expanding functionality

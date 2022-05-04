@@ -263,3 +263,10 @@ footer {
     width: 30%;
   }
 }
+
+@media screen and (max-width: 569px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
