@@ -34,3 +34,5 @@ Ver 0.2: Creation of basic layout and style elements.
 Ver 0.15: Initial upload of blank index.html and style.css sheets, updated README to include a rough description and the beginning of the Changelog.
 
 Ver 0.1: Creation of GitHub repository.
+
+Deployed website: https://sabotmbt.github.io/JDR_Portfolio/
