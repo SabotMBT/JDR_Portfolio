@@ -8,8 +8,15 @@ Changelog:
 
 To Do:
 
-- Replace placeholder content with real content.
 - Add pictures and links to deployed projects when they become available.
+
+Ver 0.9.3: Fleshing out the website
+
+- Expanding functionality
+- Animating linkboxes
+- Replacing placeholder text in Biography with an actual bio
+- Adding Contact Information, animating boxes, and making the links functional
+-
 
 Ver 0.9: Adding functionality to the page.
 
