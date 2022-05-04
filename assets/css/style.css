@@ -154,6 +154,10 @@ aside h2 {
   align-items: center;
 }
 
+.contact div a {
+  background-color: var(--seccolor);
+}
+
 .contact a {
   background-color: var(--seccolor);
   color: var(--primlight);
