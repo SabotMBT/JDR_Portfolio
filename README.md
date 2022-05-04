@@ -41,4 +41,6 @@ Ver 0.15: Initial upload of blank index.html and style.css sheets, updated READM
 
 Ver 0.1: Creation of GitHub repository.
 
+Screenshot: ![sabotmbt github io_JDR_Portfolio_](https://user-images.githubusercontent.com/104104069/166627961-5b41ee08-009d-4e28-a0df-ec2ed60d519d.png)
+
 Deployed website: https://sabotmbt.github.io/JDR_Portfolio/
